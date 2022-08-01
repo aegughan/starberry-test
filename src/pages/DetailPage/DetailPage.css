@@ -1,0 +1,25 @@
+.detailContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 0;
+  padding: 20px;
+}
+.detailContainer .imageContainer {
+  width: 50%;
+}
+.detailContainer .imageContainer img {
+  width: 97%;
+  padding: 0px 10px 5px 10px;
+  height: 500px;
+}
+.detailContainer .imageContainer .innerImg {
+  display: flex;
+}
+.detailContainer .imageContainer .innerImg img {
+  width: 49%;
+  height: 250px;
+  padding: 5px 10px;
+}
+.detailContainer .propertyContainer {
+  width: 50%;
+}
