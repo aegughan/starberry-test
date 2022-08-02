@@ -10,6 +10,9 @@
   padding: 20px;
   font-weight: bold;
 }
-.right {
-  text-align: right;
+
+.header button {
+  position: absolute;
+  right: 15px;
+  margin-top: -35px;
 }

@@ -28,8 +28,27 @@
 .property .propertyTitle {
   margin-bottom: 10px;
 }
+.searchContainer {
+  display: flex;
+  padding: 15px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.searchContainer select,
+.searchContainer select:focus-visible {
+  border: none;
+  outline: none;
+}
+.searchContainer .bedrooms {
+  margin-right: 20px;
+}
 
 @media screen and (max-width: 916px) {
+  .container {
+    margin: 30px 10px;
+  }
   .container .propertyContainer .property {
     width: 45%;
   }
